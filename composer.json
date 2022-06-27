@@ -1,0 +1,15 @@
+{
+    "name": "sieg/package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Sieg\\Package\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sieg"
+        }
+    ],
+    "require": {}
+}
