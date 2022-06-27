@@ -1,7 +1,6 @@
 {
     "name": "sieg/package",
     "type": "library",
-    "version": "dev-b-6.5.x",
     "autoload": {
         "psr-4": {
             "Sieg\\Package\\": "src/"
@@ -12,5 +11,10 @@
             "name": "Sieg"
         }
     ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "6.5.x-dev"
+        }
+    },
     "require": {}
 }
